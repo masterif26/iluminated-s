@@ -18,13 +18,12 @@ body{
     display:flex;
     justify-content:center;
     align-items:flex-start;
-    padding-top:200px; /* más espacio arriba */
+    padding-top:200px;
     color:white;
     overflow:hidden;
     background:#050505;
 }
 
-/* Partículas */
 #particles{
     position:fixed;
     top:0;
@@ -38,30 +37,28 @@ body{
     position:relative;
     z-index:2;
     background: rgba(10,10,10,0.93);
-    padding:80px 30px 30px 30px; /* más espacio interno arriba */
+    padding:80px 30px 30px 30px;
     border-radius:25px;
     backdrop-filter: blur(15px);
     box-shadow: 0 0 40px rgba(120,0,255,0.25);
     text-align:center;
     width:90%;
-    max-width:500px; /* un poco más ancho */
+    max-width:500px;
     border:1px solid rgba(120,0,255,0.25);
 }
 
-/* LOGO GRANDE */
 .logo{
     position:absolute;
     top:-160px; 
     left:50%;
     transform:translateX(-50%);
-    width:260px; /* mucho más grande */
+    width:260px;
     border-radius:50%;
     z-index:10;
     box-shadow:0 0 60px rgba(140,0,255,1);
     animation: flotar 4s ease-in-out infinite;
 }
 
-/* Animación flotante */
 @keyframes flotar{
     0%{ transform:translate(-50%, 0px); }
     50%{ transform:translate(-50%, -20px); }
@@ -92,7 +89,8 @@ iframe{
 
 <div class="container">
 
-    <img src="iluminateds.webp" class="logo">
+    <!-- RUTA ACTUALIZADA -->
+    <img src="build/iluminateds.webp" class="logo">
 
     <h1>Únete a nuestra comunidad 🚀</h1>
 
